@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "name",
+						"type": "string"
+					}
+				],
+				"name": "MotherName",
+				"type": "event"
+			},
+			{
+				"inputs": [],
+				"name": "who",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lec16.sol": "Mother"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lec16.sol": {
+			"keccak256": "0xb5d50db556cfdc24e29c1c42266d90b9fd29e6a09776b5f6f961ff4e65cf8b47",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://4c818660d6bd89c8e623fa5fed65fe6de69ad2c9c5342b9f3247e44a07ccd939",
+				"dweb:/ipfs/QmXwPRNGvezUPQdu6mhPp64oT8TanPATNuZ1GSruQDeaHc"
+			]
+		}
+	},
+	"version": 1
+}
